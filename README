@@ -1,0 +1,15 @@
+Write a program that reads words from a text file specified as a command-line argument. Your program will read the file, keep a running count of how many times each word appears, and then print out the count for each word.
+
+To accomplish this, you will define your own opaque data type called WordCounts that is responsible for tracking the frequency of each word string. For now, you may use a simple data structure such as an unsorted array to keep track of the counts.
+
+Start with the template .c file posted on TITANium.
+
+Then, replace all the parts marked TODO with your own code. You will need to fill in some of the details of the file input/output, and design and implement the WordCounts data type. You may also want to create additional opaque data types, for example an "Entry" that stores a word as a string along with its frequency as an int.
+
+You can test your program on two provided text files:
+
+MIT_License.txt is the text of MIT's open source software license, which is only one paragraph long.
+pg1323.txt is Project Gutenberg's most popular public domain book, Pride and Prejudice by Jane Austen.
+I have uploaded an example of correct output for MIT_License.txt.
+
+Any two correct programs should obtain the same counts for each word, although since the order that the words should be printed is unspecified, different programs might print them in different orders
